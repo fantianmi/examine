@@ -1,0 +1,101 @@
+2014-09-04 11:49:27  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 11:49:27  [ main:317 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 11:49:31  [ main:3667 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 13:15:11  [ main:1 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 13:15:11  [ main:255 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 13:15:13  [ main:2029 ] - [ WARN ]  failed SelectChannelConnector@0.0.0.0:80: java.net.BindException: Address already in use: bind
+2014-09-04 13:15:13  [ main:2030 ] - [ WARN ]  failed Server@6c2e1e17: java.net.BindException: Address already in use: bind
+2014-09-04 13:15:28  [ main:1 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 13:15:29  [ main:240 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 13:15:30  [ main:2043 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 13:18:35  [ main:187059 ] - [ INFO ]  Stopped SelectChannelConnector@0.0.0.0:80
+2014-09-04 13:59:48  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 13:59:48  [ main:306 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 13:59:50  [ main:2396 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 14:00:18  [ 377932536@qtp-873619549-0:30407 ] - [ INFO ]  connected
+2014-09-04 14:00:27  [ 377932536@qtp-873619549-0:39873 ] - [ INFO ]  disconnected
+2014-09-04 14:10:07  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 14:10:07  [ main:209 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 14:10:09  [ main:1702 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 14:15:30  [ 2027399355@qtp-287413836-0:322895 ] - [ INFO ]  connected
+2014-09-04 14:15:32  [ 2027399355@qtp-287413836-0:325219 ] - [ INFO ]  disconnected
+2014-09-04 14:25:48  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 14:25:48  [ main:220 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 14:25:50  [ main:2147 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 14:27:56  [ 1975357211@qtp-1658154018-0:128103 ] - [ INFO ]  connected
+2014-09-04 14:27:58  [ 1975357211@qtp-1658154018-0:130242 ] - [ INFO ]  disconnected
+2014-09-04 14:29:32  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 14:29:33  [ main:332 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 14:29:34  [ main:2060 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 14:29:45  [ 918426392@qtp-338615998-0:12886 ] - [ INFO ]  connected
+2014-09-04 14:29:46  [ 918426392@qtp-338615998-0:13286 ] - [ INFO ]  disconnected
+2014-09-04 14:31:51  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 14:31:51  [ main:212 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 14:31:53  [ main:1910 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 14:32:10  [ 2027399355@qtp-287413836-0:19079 ] - [ INFO ]  connected
+2014-09-04 14:32:10  [ 2027399355@qtp-287413836-0:19484 ] - [ INFO ]  disconnected
+2014-09-04 14:37:45  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 14:37:45  [ main:230 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 14:37:47  [ main:2109 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 14:38:18  [ 918426392@qtp-338615998-0:33177 ] - [ INFO ]  connected
+2014-09-04 14:38:19  [ 918426392@qtp-338615998-0:33576 ] - [ INFO ]  disconnected
+2014-09-04 14:41:15  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 14:41:15  [ main:237 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 14:41:16  [ main:1920 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 14:41:48  [ 830574012@qtp-1273308587-0:32934 ] - [ INFO ]  connected
+2014-09-04 14:41:48  [ 830574012@qtp-1273308587-0:33313 ] - [ INFO ]  disconnected
+2014-09-04 14:42:35  [ 830574012@qtp-1273308587-0:80168 ] - [ INFO ]  connected
+2014-09-04 14:42:40  [ 830574012@qtp-1273308587-0:85093 ] - [ INFO ]  disconnected
+2014-09-04 14:44:28  [ 830574012@qtp-1273308587-0:193912 ] - [ INFO ]  connected
+2014-09-04 14:44:32  [ 830574012@qtp-1273308587-0:197445 ] - [ INFO ]  disconnected
+2014-09-04 14:45:12  [ 830574012@qtp-1273308587-0:237351 ] - [ INFO ]  connected
+2014-09-04 14:45:16  [ 830574012@qtp-1273308587-0:241582 ] - [ INFO ]  disconnected
+2014-09-04 14:47:50  [ 830574012@qtp-1273308587-0:395261 ] - [ INFO ]  connected
+2014-09-04 14:47:54  [ 830574012@qtp-1273308587-0:398987 ] - [ INFO ]  disconnected
+2014-09-04 16:03:33  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 16:03:33  [ main:232 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 16:03:35  [ main:1669 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 16:04:08  [ 813714184@qtp-822879354-0:34581 ] - [ INFO ]  connected
+2014-09-04 16:04:11  [ 813714184@qtp-822879354-0:38479 ] - [ INFO ]  disconnected
+2014-09-04 16:10:52  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 16:10:52  [ main:238 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 16:10:53  [ main:1880 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 16:11:28  [ 377932536@qtp-873619549-0:36779 ] - [ INFO ]  connected
+2014-09-04 16:11:32  [ 377932536@qtp-873619549-0:40554 ] - [ INFO ]  disconnected
+2014-09-04 16:13:22  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 16:13:22  [ main:199 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 16:13:24  [ main:1856 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 16:13:43  [ 813714184@qtp-822879354-0:21367 ] - [ INFO ]  connected
+2014-09-04 16:13:47  [ 813714184@qtp-822879354-0:25138 ] - [ INFO ]  disconnected
+2014-09-04 16:16:13  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 16:16:13  [ main:233 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 16:16:15  [ main:2291 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 16:16:48  [ 1180821895@qtp-458613222-0:34816 ] - [ INFO ]  connected
+2014-09-04 16:16:51  [ 1180821895@qtp-458613222-0:38410 ] - [ INFO ]  disconnected
+2014-09-04 17:10:33  [ 1532730977@qtp-458613222-2:3260541 ] - [ INFO ]  connected
+2014-09-04 17:10:36  [ 1532730977@qtp-458613222-2:3263161 ] - [ INFO ]  disconnected
+2014-09-04 17:11:31  [ 1532730977@qtp-458613222-2:3317716 ] - [ INFO ]  connected
+2014-09-04 17:11:35  [ 1532730977@qtp-458613222-2:3321626 ] - [ INFO ]  disconnected
+2014-09-04 17:24:01  [ 166973180@qtp-458613222-5:4068340 ] - [ INFO ]  connected
+2014-09-04 17:24:04  [ 166973180@qtp-458613222-5:4071089 ] - [ INFO ]  disconnected
+2014-09-04 17:30:08  [ 1532730977@qtp-458613222-2:4435159 ] - [ INFO ]  connected
+2014-09-04 17:30:12  [ 1532730977@qtp-458613222-2:4438842 ] - [ INFO ]  disconnected
+2014-09-04 17:32:50  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 17:32:51  [ main:203 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 17:32:52  [ main:1684 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 17:34:58  [ 830574012@qtp-1273308587-0:127119 ] - [ INFO ]  connected
+2014-09-04 17:35:01  [ 830574012@qtp-1273308587-0:131004 ] - [ INFO ]  disconnected
+2014-09-04 17:36:09  [ 830574012@qtp-1273308587-0:198402 ] - [ INFO ]  connected
+2014-09-04 17:36:13  [ 830574012@qtp-1273308587-0:202127 ] - [ INFO ]  disconnected
+2014-09-04 17:37:52  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 17:37:52  [ main:415 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 17:37:54  [ main:2199 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 17:38:31  [ 1975357211@qtp-1658154018-0:38575 ] - [ INFO ]  connected
+2014-09-04 17:38:34  [ 1975357211@qtp-1658154018-0:42305 ] - [ INFO ]  disconnected
+2014-09-04 17:42:54  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-04 17:42:54  [ main:226 ] - [ INFO ]  jetty-6.1.26
+2014-09-04 17:42:55  [ main:1760 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-04 17:43:29  [ 918426392@qtp-338615998-0:35581 ] - [ INFO ]  connected
+2014-09-04 17:43:33  [ 918426392@qtp-338615998-0:39307 ] - [ INFO ]  disconnected
+2014-09-04 17:46:35  [ 918426392@qtp-338615998-0:220820 ] - [ INFO ]  connected
+2014-09-04 17:46:38  [ 918426392@qtp-338615998-0:224663 ] - [ INFO ]  disconnected

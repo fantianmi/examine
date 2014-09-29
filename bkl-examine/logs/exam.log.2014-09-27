@@ -1,0 +1,107 @@
+2014-09-26 11:09:16  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 11:09:16  [ main:165 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 11:09:28  [ main:11353 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-26 13:26:32  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 13:26:32  [ main:317 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 13:26:35  [ main:3165 ] - [ WARN ]  failed SelectChannelConnector@0.0.0.0:12000: java.net.BindException: Address already in use: bind
+2014-09-26 13:26:35  [ main:3165 ] - [ WARN ]  failed Server@6e6d5e: java.net.BindException: Address already in use: bind
+2014-09-26 13:26:48  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 13:26:49  [ main:215 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 13:26:50  [ main:1076 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-26 13:34:11  [ 9159637@qtp-13097502-0:442043 ] - [ ERROR ]  Error for /convt/docUpload
+java.lang.Error: Unresolved compilation problems: 
+	The import com.oreilly cannot be resolved
+	The import com.oreilly cannot be resolved
+	DefaultFileRenamePolicy cannot be resolved to a type
+	DefaultFileRenamePolicy cannot be resolved to a type
+	MultipartRequest cannot be resolved to a type
+	MultipartRequest cannot be resolved to a type
+
+	at com.bkl.examine.servlet.ConvertServlet.<init>(ConvertServlet.java:22)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at java.lang.Class.newInstance(Class.java:433)
+	at org.mortbay.jetty.servlet.Holder.newInstance(Holder.java:153)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:428)
+	at org.mortbay.jetty.servlet.ServletHolder.getServlet(ServletHolder.java:339)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:487)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at com.bkl.examine.servlet.RootFilter.doFilter(RootFilter.java:40)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at com.km.common.filter.CharsetFilter.doFilter(CharsetFilter.java:27)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.content(HttpConnection.java:945)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:756)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2014-09-26 14:42:48  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 14:42:49  [ main:190 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 14:42:50  [ main:1336 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-26 15:13:15  [ main:1 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 15:13:15  [ main:98 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 15:13:16  [ main:780 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-26 15:27:21  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 15:27:21  [ main:92 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 15:27:22  [ main:789 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-26 15:31:38  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 15:31:38  [ main:92 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 15:31:39  [ main:740 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-26 15:44:54  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 15:44:54  [ main:91 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 15:44:55  [ main:731 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-26 15:46:16  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 15:46:16  [ main:95 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 15:46:17  [ main:757 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-26 15:53:49  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-26 15:53:50  [ main:91 ] - [ INFO ]  jetty-6.1.26
+2014-09-26 15:53:50  [ main:742 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-27 14:06:03  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-27 14:06:04  [ main:569 ] - [ INFO ]  jetty-6.1.26
+2014-09-27 14:06:05  [ main:2178 ] - [ WARN ]  failed SelectChannelConnector@0.0.0.0:12000: java.net.BindException: Address already in use: bind
+2014-09-27 14:06:05  [ main:2179 ] - [ WARN ]  failed Server@196751b: java.net.BindException: Address already in use: bind
+2014-09-27 15:03:20  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-27 15:03:20  [ main:339 ] - [ INFO ]  jetty-6.1.26
+2014-09-27 15:03:21  [ main:1352 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-27 16:59:24  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-27 16:59:24  [ main:93 ] - [ INFO ]  jetty-6.1.26
+2014-09-27 16:59:24  [ main:237 ] - [ WARN ]  Could not instantiate listener com.bkl.examine.listener.ServicesListener
+java.lang.ClassNotFoundException: com.bkl.examine.listener.ServicesListener
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.jetty.handler.ContextHandler.loadClass(ContextHandler.java:1102)
+	at org.mortbay.jetty.webapp.WebXmlConfiguration.initListener(WebXmlConfiguration.java:630)
+	at org.mortbay.jetty.webapp.WebXmlConfiguration.initWebXmlElement(WebXmlConfiguration.java:368)
+	at org.mortbay.jetty.webapp.WebXmlConfiguration.initialize(WebXmlConfiguration.java:289)
+	at org.mortbay.jetty.webapp.WebXmlConfiguration.configure(WebXmlConfiguration.java:222)
+	at org.mortbay.jetty.webapp.WebXmlConfiguration.configureWebApp(WebXmlConfiguration.java:180)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1279)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:67)
+2014-09-27 16:59:25  [ main:546 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-27 17:04:22  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-27 17:04:22  [ main:93 ] - [ INFO ]  jetty-6.1.26
+2014-09-27 17:04:22  [ main:720 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000

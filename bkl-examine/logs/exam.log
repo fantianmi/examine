@@ -1,0 +1,7 @@
+2014-09-29 11:04:45  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-29 11:04:46  [ main:327 ] - [ INFO ]  jetty-6.1.26
+2014-09-29 11:04:48  [ main:2539 ] - [ WARN ]  failed SelectChannelConnector@0.0.0.0:12000: java.net.BindException: Address already in use: bind
+2014-09-29 11:04:48  [ main:2540 ] - [ WARN ]  failed Server@196751b: java.net.BindException: Address already in use: bind
+2014-09-29 11:05:02  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-29 11:05:03  [ main:136 ] - [ INFO ]  jetty-6.1.26
+2014-09-29 11:05:03  [ main:1062 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000

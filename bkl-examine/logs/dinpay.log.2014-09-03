@@ -1,0 +1,506 @@
+2014-09-02 22:16:07  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-02 22:16:07  [ main:302 ] - [ INFO ]  jetty-6.1.26
+2014-09-02 22:16:09  [ main:2093 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkltech.examine.servlet.RootFilter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-02 22:16:09  [ main:2098 ] - [ WARN ]  failed root_filter: javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+2014-09-02 22:16:09  [ main:2098 ] - [ WARN ]  Failed startup of context org.mortbay.jetty.webapp.WebAppContext@405ffb87{/,file:/D:/bkltech.workspace/bkl-examine/src/main/webapp/;}
+javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:79)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-02 22:16:09  [ main:2160 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-02 22:17:27  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-02 22:17:27  [ main:284 ] - [ INFO ]  jetty-6.1.26
+2014-09-02 22:17:29  [ main:1926 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkltech.examine.servlet.RootFilter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-02 22:17:29  [ main:1930 ] - [ WARN ]  failed root_filter: javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+2014-09-02 22:17:29  [ main:1930 ] - [ WARN ]  Failed startup of context org.mortbay.jetty.webapp.WebAppContext@405ffb87{/,file:/D:/bkltech.workspace/bkl-examine/src/main/webapp/;}
+javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:79)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-02 22:17:29  [ main:1968 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-02 22:57:15  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-02 22:57:15  [ main:354 ] - [ INFO ]  jetty-6.1.26
+2014-09-02 22:57:18  [ main:2566 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkltech.examine.servlet.RootFilter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-02 22:57:18  [ main:2572 ] - [ WARN ]  failed root_filter: javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+2014-09-02 22:57:18  [ main:2573 ] - [ WARN ]  Failed startup of context org.mortbay.jetty.webapp.WebAppContext@3f047fc3{/,file:/D:/bkltech.workspace/bkl-examine/src/main/webapp/;}
+javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:79)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-02 22:57:18  [ main:2613 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 11:03:56  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 11:03:56  [ main:406 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 11:03:59  [ main:3182 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkltech.examine.servlet.RootFilter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:03:59  [ main:3186 ] - [ WARN ]  failed root_filter: javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+2014-09-03 11:03:59  [ main:3187 ] - [ WARN ]  Failed startup of context org.mortbay.jetty.webapp.WebAppContext@14aa1da5{/,file:/D:/bkltech.workspace/bkl-examine/src/main/webapp/;}
+javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:79)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:03:59  [ main:3234 ] - [ WARN ]  failed SelectChannelConnector@0.0.0.0:80: java.net.BindException: Address already in use: bind
+2014-09-03 11:03:59  [ main:3235 ] - [ WARN ]  failed Server@5f3c750c: java.net.BindException: Address already in use: bind
+2014-09-03 11:04:15  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 11:04:15  [ main:332 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 11:04:18  [ main:3001 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkltech.examine.servlet.RootFilter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:04:18  [ main:3008 ] - [ WARN ]  failed root_filter: javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+2014-09-03 11:04:18  [ main:3009 ] - [ WARN ]  Failed startup of context org.mortbay.jetty.webapp.WebAppContext@14aa1da5{/,file:/D:/bkltech.workspace/bkl-examine/src/main/webapp/;}
+javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:79)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:04:18  [ main:3085 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 11:10:54  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 11:10:55  [ main:416 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 11:10:57  [ main:2753 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkltech.examine.servlet.RootFilter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:10:57  [ main:2758 ] - [ WARN ]  failed root_filter: javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+2014-09-03 11:10:57  [ main:2759 ] - [ WARN ]  Failed startup of context org.mortbay.jetty.webapp.WebAppContext@4489fcaf{/,file:/D:/bkltech.workspace/bkl-examine/src/main/webapp/;}
+javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:79)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:10:57  [ main:2807 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 11:19:15  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 11:19:15  [ main:315 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 11:19:17  [ main:2534 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkltech.examine.servlet.RootFilter
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:19:17  [ main:2541 ] - [ WARN ]  failed root_filter: javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+2014-09-03 11:19:17  [ main:2541 ] - [ WARN ]  Failed startup of context org.mortbay.jetty.webapp.WebAppContext@405ffb87{/,file:/D:/bkltech.workspace/bkl-examine/src/main/webapp/;}
+javax.servlet.UnavailableException: com.bkltech.examine.servlet.RootFilter
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:79)
+	at org.mortbay.jetty.servlet.FilterHolder.doStart(FilterHolder.java:81)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:713)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:19:18  [ main:2600 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 11:20:49  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 11:20:49  [ main:286 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 11:20:51  [ main:2597 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkl.examine.servlet.login.QqServlet
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:242)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:20:51  [ main:2604 ] - [ INFO ]  Unavailable javax.servlet.UnavailableException: com.bkl.examine.servlet.login.QqServlet
+2014-09-03 11:20:51  [ main:2604 ] - [ WARN ]  failed qoauth: java.lang.NullPointerException
+2014-09-03 11:20:51  [ main:2607 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkl.examine.servlet.login.WeiboServlet
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:242)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:20:51  [ main:2611 ] - [ INFO ]  Unavailable javax.servlet.UnavailableException: com.bkl.examine.servlet.login.WeiboServlet
+2014-09-03 11:20:51  [ main:2613 ] - [ WARN ]  failed woauth: java.lang.NullPointerException
+2014-09-03 11:20:52  [ main:2967 ] - [ WARN ]  Failed startup of context org.mortbay.jetty.webapp.WebAppContext@13a99b9a{/,file:/D:/bkltech.workspace/bkl-examine/src/main/webapp/;}
+org.mortbay.util.MultiException[java.lang.NullPointerException, java.lang.NullPointerException]
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:707)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+java.lang.NullPointerException
+	at java.lang.Class.isAssignableFrom(Native Method)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:256)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+java.lang.NullPointerException
+	at java.lang.Class.isAssignableFrom(Native Method)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:256)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 11:20:52  [ main:3019 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 11:29:03  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 11:29:03  [ main:427 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 11:29:05  [ main:2659 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 13:52:19  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 13:52:19  [ main:292 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 13:52:21  [ main:2616 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 13:59:04  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 13:59:04  [ main:371 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 13:59:06  [ main:2826 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:00:10  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 14:00:11  [ main:345 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 14:00:14  [ main:3652 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:08:10  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 14:08:11  [ main:426 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 14:08:13  [ main:2880 ] - [ WARN ]  EXCEPTION 
+java.lang.ClassNotFoundException: com.bkl.examine.servlet.DocUploadConvertServlet1
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:401)
+	at org.mortbay.jetty.webapp.WebAppClassLoader.loadClass(WebAppClassLoader.java:363)
+	at org.mortbay.util.Loader.loadClass(Loader.java:91)
+	at org.mortbay.util.Loader.loadClass(Loader.java:71)
+	at org.mortbay.jetty.servlet.Holder.doStart(Holder.java:73)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:242)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 14:08:13  [ main:2885 ] - [ INFO ]  Unavailable javax.servlet.UnavailableException: com.bkl.examine.servlet.DocUploadConvertServlet1
+2014-09-03 14:08:13  [ main:2886 ] - [ WARN ]  failed convert: java.lang.NullPointerException
+2014-09-03 14:08:13  [ main:2962 ] - [ ERROR ]  Failed startup of context org.mortbay.jetty.webapp.WebAppContext@5db5dc81{/,file:/D:/bkltech.workspace/bkl-examine/src/main/webapp/;}
+java.lang.NullPointerException
+	at java.lang.Class.isAssignableFrom(Native Method)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:256)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at StartJetty6.main(StartJetty6.java:68)
+2014-09-03 14:08:13  [ main:3022 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:08:43  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 14:08:43  [ main:434 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 14:08:46  [ main:2937 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:09:31  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 14:09:31  [ main:358 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 14:09:34  [ main:3452 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:24:01  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 14:24:01  [ main:377 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 14:24:04  [ main:3041 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:25:16  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 14:25:16  [ main:399 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 14:25:19  [ main:3316 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:40:13  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 14:40:13  [ main:468 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 14:40:16  [ main:2969 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:42:55  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 14:42:55  [ main:411 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 14:42:58  [ main:2923 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:44:32  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 14:44:33  [ main:441 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 14:44:35  [ main:2907 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 14:44:42  [ 2057273927@qtp-813783432-0:9932 ] - [ INFO ]  recieve front request
+2014-09-03 14:45:30  [ 2057273927@qtp-813783432-0:57631 ] - [ INFO ]  recieve front request
+2014-09-03 14:45:30  [ 2057273927@qtp-813783432-0:57993 ] - [ INFO ]  connected
+2014-09-03 14:46:46  [ 2057273927@qtp-813783432-0:133885 ] - [ INFO ]  recieve front request
+2014-09-03 14:46:46  [ 2057273927@qtp-813783432-0:133915 ] - [ INFO ]  connected
+2014-09-03 14:47:10  [ 2057273927@qtp-813783432-0:157663 ] - [ INFO ]  disconnected
+2014-09-03 15:06:09  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-03 15:06:10  [ main:579 ] - [ INFO ]  jetty-6.1.26
+2014-09-03 15:06:12  [ main:3366 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
+2014-09-03 15:06:57  [ 2116174389@qtp-2082277528-0:47730 ] - [ INFO ]  recieve front request
+2014-09-03 15:06:57  [ 2116174389@qtp-2082277528-0:48158 ] - [ INFO ]  connected
+2014-09-03 15:07:13  [ 2116174389@qtp-2082277528-0:63547 ] - [ INFO ]  disconnected

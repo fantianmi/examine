@@ -1,0 +1,9 @@
+2014-09-22 10:42:48  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-22 10:42:48  [ main:498 ] - [ INFO ]  jetty-6.1.26
+2014-09-22 10:42:51  [ main:3183 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-22 12:06:15  [ main:1 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-22 12:06:16  [ main:390 ] - [ INFO ]  jetty-6.1.26
+2014-09-22 12:06:19  [ main:3227 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-22 21:02:35  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-22 21:02:35  [ main:229 ] - [ INFO ]  jetty-6.1.26
+2014-09-22 21:02:37  [ main:2160 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000

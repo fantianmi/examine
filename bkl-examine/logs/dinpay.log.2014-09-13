@@ -1,0 +1,4 @@
+2014-09-13 18:12:58  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-13 18:12:58  [ main:380 ] - [ INFO ]  jetty-6.1.26
+2014-09-13 18:13:00  [ main:2240 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:12000
+2014-09-13 18:19:14  [ 675970926@qtp-1273308587-2:375807 ] - [ WARN ]  /addArcType.jsp: java.io.FileNotFoundException: /commonjs.jsp

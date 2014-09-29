@@ -1,0 +1,3 @@
+2014-09-06 10:19:28  [ main:0 ] - [ INFO ]  Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-09-06 10:19:29  [ main:475 ] - [ INFO ]  jetty-6.1.26
+2014-09-06 10:19:32  [ main:4158 ] - [ INFO ]  Started SelectChannelConnector@0.0.0.0:80
